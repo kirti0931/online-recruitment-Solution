@@ -1,0 +1,100 @@
+body{
+   font-family: Poppins;
+  
+}
+
+
+h1{
+    color:rgb(79, 201, 201);
+     font-size: 40px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ 
+ }
+
+ .container{
+    height:560px;
+    width:370px;
+    border:2px solid rgb(79, 201, 201);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left:400px;
+    margin-top:70px;
+    box-shadow: 0 12px 24px  rgba(79,209,197,.64);
+}
+
+.fname{
+    padding-top:30px;  
+    
+}
+
+.lname{
+    padding-top: 30px;
+    
+}
+
+
+.username{
+    padding-top:30px;  
+    
+}
+
+.password{
+    padding-top: 30px;
+    
+}
+
+.email{
+    padding-top: 30px;
+}
+
+.register{
+    margin-top: 10px;
+
+}
+
+#username ,#password,#fname,#lname,#email{
+    height:30px;
+    width:250px;
+    border:2px solid rgb(79, 201, 201);
+    
+}
+
+#register{
+    border:2px solid rgb(79, 201, 201);
+    height:40px;
+    width:170px;
+    .button {
+        display: grid;
+        grid-template-columns: repeat(3,minmax(200px,1fr));
+        /* check here baby */
+        margin-left: 50px;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+      
+      }
+      
+      .btn {
+        height: 50px;
+        width: 130px;
+        border: 2px solid wheat;
+        background-color: #030326;
+        color: white;
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 18px;
+        border-radius: 5px;
+        box-shadow: 0 12px 24px rgba(134, 177, 127, 0.25);
+      }
+}
+
+.copyright{
+    color:rgb(79, 201, 201);
+    font-weight: bolder;
+    margin-top: 40px;
+    box-shadow: 0 12px 24px  rgba(79,209,197,.64);
+    font-size: 20px;
+}

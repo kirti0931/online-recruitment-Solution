@@ -1,0 +1,250 @@
+@media screen and (width:376px){
+
+body{
+    /* background-color: rgb(221, 230, 230); */
+    font-family: Poppins;
+  
+}
+
+h1{
+    color:#4fc9c9;
+     font-size: 20px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     font-family:Poppins;
+     /* text-decoration: 1px solid wavy; */
+     background-color:  rgb(221, 230, 230);
+ }
+
+ 
+
+ .header{
+    font-size:15px;
+    font-weight: 300;
+    padding-top:20px;
+ }
+
+ .heading-img{
+    height:160px;
+    width:200px;
+    display:float;
+    float: right;
+    margin-right:10px;
+    box-shadow: 0 12px 24px  rgba(79,209,197,.64);
+   
+ }
+ #para{
+    font-size: 12px;
+    font-family:Poppins;
+ }
+.container{
+    display:flex;
+    /* grid-template-columns:350px 150px 150px 150px 150px;
+    grid-gap:3px; */
+    height:600px;
+    width:100%;
+    /* padding-top:50px; */
+    /* box-shadow: 0 12px 24px  rgba(79,209,197,.64); */
+
+}
+ .data {
+    flex: 1;
+    /* background-color:  rgb(221, 230, 230); */
+    transition: height 0.3s ease;
+    border:2px solid rgb(79, 201, 201);
+    display:inline-flexbox;
+    height:500px;
+    width:150px;
+    word-spacing: 3px;
+    margin-right:10px;
+    box-shadow: 0 12px 24px  rgba(79,209,197,.64);
+    padding-top:40px;
+  }
+
+  .data-1:hover{
+           height:400px;
+           width:300px;
+           font-size:30px;
+           color:rgb(249, 233, 247);
+  }
+
+  img{
+    height:120px;
+    width:210px;
+    margin-left:15px;
+   
+  }
+
+  .heading-2{
+   margin-left:20px;
+   color:rgb(79, 201, 201);
+    font-size: 18px;
+  }
+
+
+  .para-2,.para-1{
+   font-size: 10px;
+   margin-left: 10px;
+   word-spacing: 2px;
+  }
+
+  .between{
+   padding-top:60px;
+   
+  }
+
+  h3{
+   padding-top:20px;
+   font-size: 11px;
+   margin-left:13px;
+  }
+
+  span{
+   color:rgb(79, 201, 201);
+   font-size: 12px;
+  }
+
+  .data-para{
+   margin-left:5px;
+  }
+
+  .para-1{
+   font-size: 10px;
+   width:530px;
+  }
+
+  .footer-para{
+   font-size:15px;
+   color:rgb(79, 201, 201);
+   text-align: center;
+    font-family: Poppins;
+    font-weight: bolder;
+  }
+}
+
+
+@media screen and (width:576px){
+
+    body{
+        /* background-color: rgb(221, 230, 230); */
+        font-family: Poppins;
+      
+    }
+    
+    h1{
+        color:#4fc9c9;
+         font-size: 20px;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         font-family:Poppins;
+         /* text-decoration: 1px solid wavy; */
+         background-color:  rgb(221, 230, 230);
+     }
+    
+     
+    
+     .header{
+        font-size:15px;
+        font-weight: 300;
+        padding-top:20px;
+     }
+    
+     .heading-img{
+        height:100px;
+        width:100px;
+        display:float;
+        float: right;
+        margin-right:10px;
+        box-shadow: 0 12px 24px  rgba(79,209,197,.64);
+       
+     }
+     #para{
+        font-size: 12px;
+        font-family:Poppins;
+     }
+    .container{
+        display:flex;
+        /* grid-template-columns:350px 150px 150px 150px 150px;
+        grid-gap:3px; */
+        height:600px;
+        width:100%;
+        /* padding-top:50px; */
+        /* box-shadow: 0 12px 24px  rgba(79,209,197,.64); */
+    
+    }
+     .data {
+        flex: 1;
+        /* background-color:  rgb(221, 230, 230); */
+        transition: height 0.3s ease;
+        border:2px solid rgb(79, 201, 201);
+        display:inline-flexbox;
+        height:700px;
+        width:150px;
+        word-spacing: 3px;
+        margin-right:10px;
+        box-shadow: 0 12px 24px  rgba(79,209,197,.64);
+        padding-top:40px;
+      }
+    
+      .data-1:hover{
+               height:400px;
+               width:300px;
+               font-size:30px;
+               color:rgb(249, 233, 247);
+      }
+    
+      img{
+        height:70px;
+        width:70px;
+        margin-left:15px;
+       
+      }
+    
+      .heading-2{
+       margin-left:20px;
+       color:rgb(79, 201, 201);
+        font-size: 18px;
+      }
+    
+    
+      .para-2,.para-1{
+       font-size: 10px;
+       margin-left: 10px;
+       word-spacing: 2px;
+      }
+    
+      .between{
+       padding-top:60px;
+       
+      }
+    
+      h3{
+       padding-top:20px;
+       font-size: 11px;
+       margin-left:13px;
+      }
+    
+      span{
+       color:rgb(79, 201, 201);
+       font-size: 12px;
+      }
+    
+      .data-para{
+       margin-left:5px;
+      }
+    
+      .para-1{
+       font-size: 10px;
+       width:530px;
+      }
+    
+      .footer-para{
+       font-size:15px;
+       color:rgb(79, 201, 201);
+       text-align: center;
+        font-family: Poppins;
+        font-weight: bolder;
+      }
+    }

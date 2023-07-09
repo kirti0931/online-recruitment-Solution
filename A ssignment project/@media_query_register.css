@@ -1,0 +1,13 @@
+@media screen and (max-width:568), screen and (min-width:368px) {
+.container{
+    height:360px;
+    width:270px;
+    border:2px solid rgb(79, 201, 201);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left:10px;
+    margin-top:70px;
+    box-shadow: 0 12px 24px  rgba(79,209,197,.64);
+}
+

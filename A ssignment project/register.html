@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Register</title>
+  <link rel="stylesheet" type="text/css" href="register.css">
+  <link rel="stylesheet" type="text/css" href="media_query_register.css">
+  
+  <script src="register.js"></script>
+</head>
+<body>
+<div class="container" id="register-form">
+  <header>
+    <h1>User Registration</h1>
+  </header>
+  
+  <section>
+    <form id="registerForm" onsubmit="return register()">
+      <div class="name">
+      <div class="fname">
+        <input type="text" id="fname" name="name" required placeholder="firstname">
+      </div>
+      <div class="lname">
+        <input type="text" id="lname" name="name" required placeholder="lastname">
+      </div>
+    </div>
+
+    <div class="username">
+      <input type="text" id="username" name="username" required placeholder="username">
+    </div>
+      
+    <div class="password">
+      <input type="password" id="password" name="password" required placeholder="password">
+    </div>
+
+      <div class="email">
+      <input type="email" id="email" name="email" required placeholder="email-abc12@gmail.com">
+      </div>
+
+      <div class="register">
+      <button class="register" id="register"type="submit">Register</button>
+    </div>
+    </form>
+  </section>
+  
+  <footer>
+    <p class="copyright">&copy;KIRTI SWAMI</p>
+  </footer>
+</div>
+</body>
+</html>

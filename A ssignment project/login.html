@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Login</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <link rel="stylesheet" type="text/css" href="media_query_login.css">
+  <script src="login.js"></script>
+</head>
+<body>
+  <div class="container" id="login-form" >
+  <header >
+    <h1 class="heading">User Login</h1>
+  </header>
+  
+  <section class="login-form">
+    <form id="login" onsubmit="return login()">
+       <div class="username">
+        <input clas="input-username" type="text" id="username" name="username" required placeholder="Username" >
+      </div>
+      <div class="password">
+      <input class="input-passwod" type="password" id="password" name="password" required placeholder="password">
+    </div>
+    <div class="submit">
+      <button class="submit" id="submit" type="submit">Login</button>
+    </div>
+    </form>
+  </section>
+  
+  <footer>
+    <p class="copyright">&copy;KIRTI SWAMI</p>
+  </footer>
+</div>
+</body>
+</html>
